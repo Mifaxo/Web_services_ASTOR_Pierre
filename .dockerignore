@@ -1,0 +1,31 @@
+# Bytecode et caches Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Fichiers inutiles
+*.log
+*.db
+*.sqlite3
+
+# Environnement
+venv/
+.env
+.env.*
+
+# IDEs / systèmes
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Git et fichiers non nécessaires à l’image
+.git/
+.gitignore
+.dockerignore
+
+# Fichiers hors production
+tests/
+Makefile
+README.md

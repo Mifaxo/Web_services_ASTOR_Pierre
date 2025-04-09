@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+*.sqlite3
+*.db
+
+# Environnement virtuel
+venv/
+.env
+.env.*
+
+# Flask / Alembic
+instance/
+*.bak
+*.swp
+
+# Ne PAS ignorer les migrations Alembic !
+# migrations/   <- Supprimé volontairement
+
+# IDEs et éditeurs
+.vscode/
+.idea/
+
+# Système
+.DS_Store
+Thumbs.db

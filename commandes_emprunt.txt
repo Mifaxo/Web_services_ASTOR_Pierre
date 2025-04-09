@@ -1,0 +1,20 @@
+
+Emprunter livre
+
+POST /books/1/borrow
+
+Content-Type: application/json
+{
+  "student_id": 2
+}
+
+
+Rendre livre
+
+POST /books/1/return
+
+
+historique des emprunts d'un livre
+
+GET /books/1/borrows
+
